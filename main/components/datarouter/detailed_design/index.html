@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="../../" >
+<html lang="en" data-content_root="../../../" >
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Safety Manual &#8212; Logging  documentation</title>
+    <title>Detailed Design &#8212; Logging  documentation</title>
   
   
   
@@ -27,42 +27,42 @@
   </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+  <link href="../../../_static/styles/theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=90905a2f556bf617f1a9" rel="stylesheet" />
 
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
-    <link rel="stylesheet" type="text/css" href="../../_static/css/score.css?v=415257cb" />
-    <link rel="stylesheet" type="text/css" href="../../_static/css/score_needs.css?v=82a1844f" />
-    <link rel="stylesheet" type="text/css" href="../../_static/css/score_design.css?v=8048e6ee" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
-    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-needs/modern.css?v=803738c0" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/graphviz.css?v=4ae1632d" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/score.css?v=415257cb" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/score_needs.css?v=82a1844f" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/score_design.css?v=8048e6ee" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-data-viewer/jsonview.bundle.css?v=f6ef2277" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/libs/html/datatables.min.css?v=4b4fd840" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/common_css/needstable.css?v=5e1b6797" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/common_css/need_core.css?v=f5b60a78" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/common_css/need_style.css?v=92936fa5" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/common_css/need_toggle.css?v=5c6620df" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/common_css/need_links.css?v=2150a916" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-needs/modern.css?v=803738c0" />
   
   <!-- So that users can add custom icons -->
-  <script defer src="../../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../../../_static/scripts/fontawesome.js?digest=90905a2f556bf617f1a9"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9" />
 
-    <script src="../../_static/jquery.js?v=5d32c60e"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-    <script src="../../_static/documentation_options.js?v=7f41d439"></script>
-    <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
-    <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
-    <script src="../../_static/design-tabs.js?v=f930bc37"></script>
-    <script src="../../_static/sphinx-data-viewer/jsonview.bundle.js?v=18cd53c5"></script>
-    <script src="../../_static/sphinx-data-viewer/jsonview_loader.js?v=f7ff7e7d"></script>
-    <script src="../../_static/sphinx-needs/libs/html/datatables.min.js?v=8a4aee21"></script>
-    <script src="../../_static/sphinx-needs/libs/html/datatables_loader.js?v=a2cae175"></script>
-    <script src="../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js?v=dca66431"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'module/manuals/safety_manual';</script>
+    <script src="../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../_static/documentation_options.js?v=7f41d439"></script>
+    <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script src="../../../_static/sphinx-data-viewer/jsonview.bundle.js?v=18cd53c5"></script>
+    <script src="../../../_static/sphinx-data-viewer/jsonview_loader.js?v=f7ff7e7d"></script>
+    <script src="../../../_static/sphinx-needs/libs/html/datatables.min.js?v=8a4aee21"></script>
+    <script src="../../../_static/sphinx-needs/libs/html/datatables_loader.js?v=a2cae175"></script>
+    <script src="../../../_static/sphinx-needs/libs/html/sphinx_needs_collapse.js?v=dca66431"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'components/datarouter/detailed_design/index';</script>
     <script>
         DOCUMENTATION_OPTIONS.theme_version = '0.20.0';
         DOCUMENTATION_OPTIONS.theme_switcher_json_url = 'https://Valeo-S-CORE-Organization.github.io/logging/versions.json';
@@ -71,18 +71,18 @@
             false;
         </script>
     <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
-    <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Release Note" href="../release/release_note.html" />
-    <link rel="prev" title="Capturing DLT Logs" href="examples/dlt_capture_demo.html" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Logging: architecture and SW design" href="logging_architecture.html" />
+    <link rel="prev" title="Datarouter Component Requirements" href="../requirements/index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="0.1" />
   
     
-    <script src="../../_static/searchtools.js"></script>
-    <script src="../../_static/language_data.js"></script>
-    <script src="../../searchindex.js"></script>
+    <script src="../../../_static/searchtools.js"></script>
+    <script src="../../../_static/language_data.js"></script>
+    <script src="../../../searchindex.js"></script>
   
   </head>
   <body data-default-mode="">
@@ -102,7 +102,7 @@
   <dialog id="pst-search-dialog">
     
 <form class="bd-search d-flex align-items-center"
-      action="../../search.html"
+      action="../../../search.html"
       method="get">
   <i class="fa-solid fa-magnifying-glass"></i>
   <input type="search"
@@ -138,7 +138,7 @@
     
   
 
-<a class="navbar-brand logo" href="../../index.html">
+<a class="navbar-brand logo" href="../../../index.html">
   
   
   
@@ -160,35 +160,35 @@
   <ul class="bd-navbar-elements navbar-nav">
     
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../features/logging/index.html">
+  <a class="nav-link nav-internal" href="../../../features/logging/index.html">
     Feature
   </a>
 </li>
 
 
-<li class="nav-item current active">
-  <a class="nav-link nav-internal" href="../index.html">
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../module/index.html">
     Module
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../verification_report/module_verification_report.html">
+  <a class="nav-link nav-internal" href="../../../verification_report/module_verification_report.html">
     Verification Report
   </a>
 </li>
 
 
-<li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../components/datarouter/index.html">
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../index.html">
     Datarouter
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../components/mw_log/index.html">
+  <a class="nav-link nav-internal" href="../../mw_log/index.html">
     mw::log Backend
   </a>
 </li>
@@ -309,35 +309,35 @@
   <ul class="bd-navbar-elements navbar-nav">
     
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../features/logging/index.html">
+  <a class="nav-link nav-internal" href="../../../features/logging/index.html">
     Feature
   </a>
 </li>
 
 
-<li class="nav-item current active">
-  <a class="nav-link nav-internal" href="../index.html">
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../module/index.html">
     Module
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../verification_report/module_verification_report.html">
+  <a class="nav-link nav-internal" href="../../../verification_report/module_verification_report.html">
     Verification Report
   </a>
 </li>
 
 
-<li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../components/datarouter/index.html">
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../index.html">
     Datarouter
   </a>
 </li>
 
 
 <li class="nav-item ">
-  <a class="nav-link nav-internal" href="../../components/mw_log/index.html">
+  <a class="nav-link nav-internal" href="../../mw_log/index.html">
     mw::log Backend
   </a>
 </li>
@@ -420,15 +420,12 @@
      aria-label="Section Navigation">
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">Manuals</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="config/configuration.html">Logging configuration</a></li>
-<li class="toctree-l2"><a class="reference internal" href="examples/file_based_local.html">How to configure logging into a file</a></li>
-<li class="toctree-l2"><a class="reference internal" href="examples/dlt_capture_demo.html">Capturing DLT Logs</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Safety Manual</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requirements/index.html">Datarouter Component Requirements</a></li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Detailed Design</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="logging_architecture.html">Logging: architecture and SW design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shm_apis.html">Remote Logging implementation details</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../release/release_note.html">Release Note</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../safety_mgt/index.html">Safety Management</a></li>
 </ul>
 </div>
 </nav></div>
@@ -465,17 +462,14 @@
   <ul class="bd-breadcrumbs">
     
     <li class="breadcrumb-item breadcrumb-home">
-      <a href="../../index.html" class="nav-link" aria-label="Home">
+      <a href="../../../index.html" class="nav-link" aria-label="Home">
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
     
-    <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Module</a></li>
+    <li class="breadcrumb-item"><a href="../index.html" class="nav-link">Datarouter</a></li>
     
-    
-    <li class="breadcrumb-item"><a href="index.html" class="nav-link">Manuals</a></li>
-    
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Safety Manual</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Detailed Design</span></li>
   </ul>
 </nav>
 </div>
@@ -492,19 +486,19 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="safety-manual">
-<h1>Safety Manual<a class="headerlink" href="#safety-manual" title="Link to this heading">#</a></h1>
-<div class="need_container docutils container" id="SNCB-2ac60653">
-<div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_document table" id="doc__logging_safety_manual">
+  <section id="detailed-design">
+<h1>Detailed Design<a class="headerlink" href="#detailed-design" title="Link to this heading">#</a></h1>
+<div class="need_container docutils container" id="SNCB-d8ea7bcb">
+<div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_document table" id="doc__datarouter_detailed_design">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
-<div class="line"><span><span class="needs_title"><span class="needs_data">Logging Safety Manual</span></span></span></div>
+<div class="line"><span><span class="needs_title"><span class="needs_data">Datarouter Detailed Design</span></span></span></div>
 </div>
 </td>
 <td class="head_center" colspan="2"><div class="needs_head line-block">
 <div class="line"><span><span class="needs_status"><span class="needs_label">status: </span><span class="needs_data">draft</span></span></span></div>
 <div class="line"><span><span class="needs_security"><span class="needs_label">security: </span><span class="needs_data">NO</span></span></span></div>
-<div class="line"><span><span class="needs_safety"><span class="needs_label">safety: </span><span class="needs_data">ASIL_B</span></span></span></div>
+<div class="line"><span><span class="needs_safety"><span class="needs_label">safety: </span><span class="needs_data">QM</span></span></span></div>
 </div>
 </td>
 <td class="head_right" colspan="2"><div class="needs_head_right line-block">
@@ -515,7 +509,7 @@
 <tr class="meta row-even"><td class="meta" colspan="3"><div class="needs_meta_left line-block">
 <div class="line"><span><span><div class="line"><span class="needs_version"><span class="needs_label">version: </span>1</span></div>
 </span></span></div>
-<div class="line"><span><div class="line">realizes: <span class="realizes"><span><a class="external_link reference external" href="https://eclipse-score.github.io/process_description//main/process_areas/safety_management/safety_management_workproducts.html#wp__module_safety_manual">wp__module_safety_manual</a></span></span></div>
+<div class="line"><span><div class="line">realizes: <span class="realizes"><span><a class="external_link reference external" href="https://eclipse-score.github.io/process_description//main/process_areas/implementation/implementation_workproducts.html#wp__sw_implementation">wp__sw_implementation</a></span></span></div>
 </span></div>
 </div>
 </td>
@@ -524,7 +518,7 @@
 <tr class="content row-odd"><td class="content" colspan="6"></td>
 </tr>
 <tr class="footer row-even"><td class="footer_left" colspan="2"><div class="needs_footer_left line-block">
-<div class="line"><span><span class="needs-id"><a class="reference internal" href="#doc__logging_safety_manual" title="doc__logging_safety_manual">doc__logging_safety_manual</a></span></span></div>
+<div class="line"><span><span class="needs-id"><a class="reference internal" href="#doc__datarouter_detailed_design" title="doc__datarouter_detailed_design">doc__datarouter_detailed_design</a></span></span></div>
 </div>
 </td>
 <td class="footer" colspan="2"><div class="needs_footer line-block">
@@ -537,73 +531,12 @@
 </table>
 </div>
 </div>
-<section id="introduction-scope">
-<h2>Introduction/Scope<a class="headerlink" href="#introduction-scope" title="Link to this heading">#</a></h2>
-<p>This safety manual covers the module logging and additionally the component logging_frontend which
-is part of the module baselibs (for the reasoning for this deployment look into <a class="reference internal" href="../../features/logging/architecture/index.html#doc__logging_module_architecture" title="doc__logging_module_architecture"><em class="xref need">Logging Architecture (doc__logging_module_architecture)</em></a>)</p>
-</section>
-<section id="assumed-platform-safety-requirements">
-<h2>Assumed Platform Safety Requirements<a class="headerlink" href="#assumed-platform-safety-requirements" title="Link to this heading">#</a></h2>
-<p>For the Logging feature the following safety related stakeholder requirements are assumed to define the top level functionality (purpose) of LOgging. I.e. from these all the feature and component requirements implemented are derived.</p>
-<ul class="simple">
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/stakeholder/index.html#stkh_req__functional_req__safe_comput">stkh_req__functional_req__safe_comput</a></p></li>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="logging_architecture.html">Logging: architecture and SW design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="shm_apis.html">Remote Logging implementation details</a></li>
 </ul>
-<p>Additionally the following stakeholder requirements need to be fulfilled only in QM quality:</p>
-<ul class="simple">
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/stakeholder/index.html#stkh_req__dev_experience__logging_support">stkh_req__dev_experience__logging_support</a></p></li>
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/stakeholder/index.html#stkh_req__dev_experience__boot_logging">stkh_req__dev_experience__boot_logging</a></p></li>
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/stakeholder/index.html#stkh_req__dependability__security_features">stkh_req__dependability__security_features</a></p></li>
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/stakeholder/index.html#stkh_req__dev_experience__prog_languages">stkh_req__dev_experience__prog_languages</a></p></li>
-<li><p><a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/stakeholder/index.html#stkh_req__overall_goals__enable_cooperation">stkh_req__overall_goals__enable_cooperation</a></p></li>
-</ul>
-<p>This means that you can rely on the logging feature not to interfere with the safe execution of the using application,
-but not on the output of the logging feature.</p>
-</section>
-<section id="assumptions-of-use">
-<h2>Assumptions of Use<a class="headerlink" href="#assumptions-of-use" title="Link to this heading">#</a></h2>
-<section id="assumptions-on-the-environment">
-<h3>Assumptions on the Environment<a class="headerlink" href="#assumptions-on-the-environment" title="Link to this heading">#</a></h3>
-<p>Generally the assumption of the project platform SEooC is that it is integrated in a safe system, i.e. the POSIX OS it runs on is qualified and also the HW related failures are taken into account by the system integrator, if not otherwise stated in the module’s safety concept.
-The platform-wide AoUs are collected in <a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/platform_assumptions/index.html#doc__platform_assumptions">doc__platform_assumptions</a></p>
-<p>To support <a class="external_link reference external" href="https://eclipse-score.github.io/score/main/requirements/platform_assumptions/index.html#aou_req__platform__safety_matching">aou_req__platform__safety_matching</a>: no need for safe libc/libcxx calls as the functionality can be QM.</p>
-<p>List of additional AoUs expected from the environment the module runs on:</p>
-<p class="needs_filter_warning" id="needtable-module/manuals/safety_manual-0">No needs passed the filters</p>
-</section>
-<section id="assumptions-on-the-user">
-<h3>Assumptions on the User<a class="headerlink" href="#assumptions-on-the-user" title="Link to this heading">#</a></h3>
-<div class="line-block">
-<div class="line">As there is no assumption on which specific OS and HW is used, the integration testing of the stakeholder and feature requirements is expected to be performed by the user of the platform SEooC. Tests covering all stakeholder and feature requirements performed on a reference platform (tbd link to reference platform specification), reviewed and passed are included in the platform SEooC safety package.</div>
-<div class="line">Additionally the components of the platform may have additional specific assumptions how they are used. These are part of every module documentation: &lt;link to add&gt;. Assumptions from components to their users can be fulfilled in two ways:</div>
-<div class="line">1. There are assumption which need to be fulfilled by all SW components, e.g. “every user of an IPC mechanism needs to make sure that he provides correct data (including appropriate ASIL level)” - in this case the AoU is marked as “platform”.</div>
-<div class="line">2. There are assumption which can be fulfilled by a safety mechanism realized by some other project platform component and are therefore not relevant for an user who uses the whole platform. But those are relevant if you chose to use the module SEooC stand-alone - in this case the AoU is marked as “module”. An example would be the “JSON read” which requires “The user shall provide a string as input which is not corrupted due to HW or QM SW errors.” - which is covered when using together with safe project platform persistency feature.</div>
 </div>
-<p>List of AoUs on the user of the platform or the module of this safety manual:</p>
-<p>Note: Platform safety manual collects all platform wide AoU (have to be fulfilled by the user for any feature).
-Module safety manual collects all AoUs specific to a feature and its realizing components.
-This means for every feature the user selects, the platform safety manual and the related module manual has to be considered.</p>
-<p class="needs_filter_warning" id="needtable-module/manuals/safety_manual-1">No needs passed the filters</p>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>Make sure these AoU are here for a safety reason, i.e. every one “mitigates” a safety analysis entry.</p>
-</div>
-</section>
-</section>
-<section id="safety-concept-of-the-seooc">
-<h2>Safety concept of the SEooC<a class="headerlink" href="#safety-concept-of-the-seooc" title="Link to this heading">#</a></h2>
-<p>The safety concept of the Logging Module is to avoid errors by using a development process as if the
-component’s requirements would be all ASIL_B.</p>
-</section>
-<section id="safety-anomalies">
-<h2>Safety Anomalies<a class="headerlink" href="#safety-anomalies" title="Link to this heading">#</a></h2>
-<p>ToDo: Anomalies (bugs in ASIL SW, detected by testing or by users, which could not be fixed) known before release are documented in the platform/module release notes &lt;add link to release note&gt;.</p>
-</section>
-<section id="references">
-<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
-<div class="line-block">
-<div class="line">&lt;link to the user manual&gt;</div>
-<div class="line">&lt;other links&gt;</div>
-</div>
-</section>
 </section>
 
 
@@ -617,20 +550,20 @@ component’s requirements would be all ASIL_B.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="examples/dlt_capture_demo.html"
+       href="../requirements/index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Capturing DLT Logs</p>
+        <p class="prev-next-title">Datarouter Component Requirements</p>
       </div>
     </a>
     <a class="right-next"
-       href="../release/release_note.html"
+       href="logging_architecture.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Release Note</p>
+        <p class="prev-next-title">Logging: architecture and SW design</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -646,31 +579,10 @@ component’s requirements would be all ASIL_B.</p>
 
 
   <div class="sidebar-secondary-item">
-<div
-    id="pst-page-navigation-heading-2"
-    class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> On this page
-  </div>
-  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
-    <ul class="pst-show_toc_level nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-scope">Introduction/Scope</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assumed-platform-safety-requirements">Assumed Platform Safety Requirements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-of-use">Assumptions of Use</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-on-the-environment">Assumptions on the Environment</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assumptions-on-the-user">Assumptions on the User</a></li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-concept-of-the-seooc">Safety concept of the SEooC</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#safety-anomalies">Safety Anomalies</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
-</ul>
-  </nav></div>
-
-  <div class="sidebar-secondary-item">
 
   
   <div class="tocsection editthispage">
-    <a href="https://github.com/Valeo-S-CORE-Organization/logging/edit/main/docs/module/manuals/safety_manual.rst">
+    <a href="https://github.com/Valeo-S-CORE-Organization/logging/edit/main/docs/components/datarouter/detailed_design/index.rst">
       <i class="fa-solid fa-pencil"></i>
       
       
@@ -695,8 +607,8 @@ component’s requirements would be all ASIL_B.</p>
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script defer src="../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
-<script defer src="../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
+  <script defer src="../../../_static/scripts/bootstrap.js?digest=90905a2f556bf617f1a9"></script>
+<script defer src="../../../_static/scripts/pydata-sphinx-theme.js?digest=90905a2f556bf617f1a9"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
